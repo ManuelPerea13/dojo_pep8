@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dojo-pep8"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dojo_pep8"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pre-commit = "^3.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
